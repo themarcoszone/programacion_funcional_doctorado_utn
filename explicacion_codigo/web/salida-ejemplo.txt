@@ -1,0 +1,40 @@
+=== MATRIZ DE RELACIONES (MODELO: PESOS FIJOS) ===
+ASML -> TSMC = 20.0%
+Broadcom -> NVIDIA = 0.0%
+CoreWeave -> Microsoft = 17.14%
+Micron -> NVIDIA = 8.74%
+Microsoft -> NVIDIA = 0.0%
+NVIDIA -> CoreWeave = 12.84%
+NVIDIA -> Microsoft = 12.99%
+NVIDIA -> Oracle = 4.68%
+Oracle -> NVIDIA = 0.0%
+SK_Hynix -> NVIDIA = 8.04%
+Samsung -> NVIDIA = 2.67%
+TSMC -> NVIDIA = 21.43%
+
+=== EVENTO ANCLA DEL ESTUDIO ===
+DatosEvento {fechaEvento = "2026-02-02", diasEstimacion = 120, finEstimacionOffset = -10, ventanaEventoInicio = -2, ventanaEventoFin = 10}
+
+=== IMPACTO TRAS SHOCK EN SK_Hynix (5 pasos) ===
+-- Modelo sin red --
+("ASML",0.0)
+("Broadcom",0.0)
+("CoreWeave",0.0)
+("Micron",0.0)
+("Microsoft",0.0)
+("NVIDIA",0.0)
+("Oracle",0.0)
+("SK_Hynix",100.0)
+("Samsung",0.0)
+("TSMC",0.0)
+-- Modelo pesos fijos --
+("ASML",0.0)
+("Broadcom",0.0)
+("CoreWeave",10.324831071793188)
+("Micron",0.0)
+("Microsoft",12.218851218136425)
+("NVIDIA",40.20729092208721)
+("Oracle",3.761596863812733)
+("SK_Hynix",100.0)
+("Samsung",0.0)
+("TSMC",0.0)
